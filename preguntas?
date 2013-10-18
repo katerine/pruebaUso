@@ -1,0 +1,8 @@
+2) En esta tarea escriba la respuesta a las siguientes preguntas:
+   2.1.) ¿Cuál es el error en el código del método para calcular el máximo común divisor?
+
+el error para calcular el maximo comun divisor es que el denominador no puede ser cero por ello la asigacion == 0 no es correcta y tendria ser != 0
+
+   2.2.) ¿Qué comandos del depurador utilizó para detectarlo? Describa la sesión de depuración.
+para analizar el error puse en funcionamiento el depurador con el comando  ruby -rdebug gcd.rb, liste mi programa con la opcion "l", ejecute con el comando "n", luego cree el punto de rotura "b 2" y con el comando "c" extendi hasta fin del programa y me detecto el error.
+
